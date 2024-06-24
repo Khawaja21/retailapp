@@ -1,0 +1,45 @@
+.text-secondry {
+    color: #1f2e4e !important;
+}
+.categories .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .categories .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .categories .card-img-top {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .categories .card-body {
+    text-align: center;
+  }
+  
+  .categories .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .categories .text-warning {
+    color: #ffc107 !important;
+  }
+  
+  .categories .text-muted {
+    color: #e4e5e9 !important;
+  }
+  
+  .categories .btn-primary {
+    background-color: #ff0000;
+    border-color: #ff0000;
+  }
+  
+  .categories .btn-primary:hover {
+    background-color: #cc0000;
+    border-color: #cc0000;
+  }
+  

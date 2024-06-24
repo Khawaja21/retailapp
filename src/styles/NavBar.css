@@ -1,0 +1,23 @@
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active {
+    color: #ea001e !important;
+}
+.dropdown .dropdown-menu a:hover {
+    background: #ea001e !important;
+    color: var(--bs-white);
+}
+@media (max-width: 991px) {
+    .navbar.navbar-expand-lg .navbar-toggler {
+        padding: 8px 15px;
+        border: 1px solid #ea001e;
+        color: #ea001e !important;
+    }
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .65rem;
+    transition: box-shadow .15s ease-in-out;
+}

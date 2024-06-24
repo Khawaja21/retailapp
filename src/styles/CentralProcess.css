@@ -1,0 +1,21 @@
+.steps .steps-item {
+    position: relative;
+    background: #1f2e4e;
+    border-radius: 10px;
+}
+.steps .steps-item .setps-number {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    bottom: 0;
+    right: 40px;
+    font-weight: 900;
+    border: 1px solid #fff;
+    border-radius: 64px;
+    transform: translateY(50%);
+    color: #fff;
+    background: #1f2e4e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

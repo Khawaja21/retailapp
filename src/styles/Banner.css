@@ -1,0 +1,20 @@
+.btn-secondary {
+    color: #fff;
+    background-color: #1f2e4e !important;
+    border-color:  #1f2e4e !important;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #ea001e !important;
+    border-color:  #ea001e !important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ea001e !important;
+    border-color: #ea001e !important;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #1f2e4e !important;
+    border-color: #1f2e4e !important;
+}

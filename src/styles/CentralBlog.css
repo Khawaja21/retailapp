@@ -1,0 +1,22 @@
+.blog .blog-item .blog-content .blog-date {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    transform: translateY(-50%);
+    padding: 12px 25px;
+    border-radius: 10px;
+    color: var(--bs-white);
+    background: #ea001e !important;
+}
+.h4.d-block.mb-3{
+    color: black !important;
+}
+.h4.d-block.mb-3:hover{
+    color: #ad0319 !important;
+}
+.Arrow{
+    color: #ea001e !important;
+}
+.Arrow:hover{
+    color:#ad0319 !important;
+}

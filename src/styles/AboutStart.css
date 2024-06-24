@@ -1,0 +1,56 @@
+.about .about-item .about-item-inner .about-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 67% 33% 29% 71% / 39% 46% 54% 61%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1f2e4e !important;
+    background: #ea001e !important;
+    animation-name: icon-animat;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    transition: 0.5s;
+}
+.about .about-img::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 98%;
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+    background: #ea001e !important;
+    z-index: -1;
+}
+.about .about-item .text-item::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background: #1f2e4e !important;
+}
+.buton {
+    color: #fff;
+    background-color: #ea001e !important;
+    border-color: #ea001e !important;
+}
+.buton:hover {
+    color: #fff;
+    background-color: #1f2e4e !important;
+    border-color: #1f2e4e !important;
+}
+.about .about-item .text-item {
+    position: relative;
+    padding-left: 25px;
+    color: #6e7684;
+}
+.mb-2 {
+    margin-bottom: .5rem !important;
+    color: #6e7684;
+}

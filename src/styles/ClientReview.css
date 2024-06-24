@@ -1,0 +1,14 @@
+.testimonial .testimonial-item .testimonial-quote {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 0;
+    right: 25px;
+    transform: translateY(-50%);
+    border-radius: 70px;
+    color: var(--bs-white);
+    background: #1f2e4e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

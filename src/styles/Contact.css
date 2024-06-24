@@ -1,0 +1,19 @@
+.bg-light {
+    background-color: #f2f2f2 !important;
+}
+.contact .contact-add-item .contact-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 67% 33% 29% 71% / 39% 46% 54% 61%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1f2e4e !important;
+    background: #ea001e !important;
+    animation-name: icon-animat;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    transition: 0.5s;
+}
