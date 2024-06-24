@@ -1,3 +1,8 @@
+.owl-carousel {
+  display: inline;
+  width: 100%;
+  z-index: 1;
+}
 .text-secondry {
     color: #1f2e4e !important;
 }
