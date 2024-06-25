@@ -12,3 +12,26 @@
     align-items: center;
     justify-content: center;
 }
+.owl-nav{
+    display: none;
+}
+.testimonial-carousel .owl-dots .owl-dot.active span::after {
+    background: #ea001e;
+    text-align: center;
+    align-items: center;
+}
+.testimonial-carousel .owl-dots .owl-dot.active {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background: #1f2e4e;
+    transition: 0.5s;
+}
+.testimonial-carousel .owl-dots .owl-dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin: 20px 10px 0 10px;
+    background: #ea001e;
+    transition: 0.5s;
+}
