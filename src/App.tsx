@@ -14,50 +14,11 @@ import Error from './pages/Error';
 import Testimonial from './pages/Testimonial';
 import Features from './pages/Features';
 import OurCar from './pages/OurCar';
-// import { Spinner } from 'react-bootstrap';
-// import Topbar from './components/Topbar';
-// import HeaderCarousel from './components/HeaderCarousel';
-// import CentralFeatures from './components/CentralFeatures';
-// import AboutStart from './components/AboutStart';
-// import Counter from './components/Counter';
-// import ServicesStart from './components/ServicesStart';
-// import VehicleCategories from './components/VehicleCategories';
-// import CentralProcess from './components/CentralProcess';
-// import CentralBlog from './components/CentralBlog';
-// import Banner from './components/Banner';
-// import CustomerSupportCenter from './components/CustomerSupportCenter';
-// import ClientReview from './components/ClientReview';
-// import Footer from './components/Footer';
-// import Copyright from './components/Copyright';
-// import BackToTop from './components/BackToTop';
-// import NavBar from './components/NavBar';
-
-
-// import Spinner from './components/Spinner';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const App: React.FC = () => {
   return (
-    // <div>
-    //   {/* <Spinner animation={'border'} /> */}
-    //   {/* <Spinner /> */}
-    //   <Topbar />
-    //   <NavBar />
-    //   <HeaderCarousel />
-    //   <CentralFeatures />
-    //   < AboutStart />
-    //   <Counter />
-    //   <ServicesStart />
-    //   <VehicleCategories />
-    //   <CentralProcess />
-    //   <CentralBlog />
-    //   <Banner />
-    //   <CustomerSupportCenter />
-    //   <ClientReview />
-    //   <Footer />
-    //   <Copyright />
-    //   <BackToTop />
-    //   {/* Add more components as needed */}
-    // </div>
+
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
